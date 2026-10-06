@@ -1,0 +1,13 @@
+public class RemoveSpace {
+    public static void main(String[] args) {
+        String str="Hi Bye Hello";
+        String res="";
+        for(int i=0;i<str.length();i++){
+            char ch=str.charAt(i);
+        if(ch!=' '){
+            res += ch;
+        }
+    }
+    System.out.println(res);
+    }
+}
